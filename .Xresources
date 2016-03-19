@@ -1,4 +1,4 @@
-xterm*faceName: 	Droid Sans Mono:size=16
+xterm*faceName: 	Droid Sans Mono:size=12
 XTerm*reverseVideo: 	on
 *.foreground: 		#1d1f21
 *.background: 		#c5c8c6
