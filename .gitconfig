@@ -8,3 +8,5 @@
 	ci = commit
 	st = status
 	br = branch
+	lo = log --oneline
+
