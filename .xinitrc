@@ -57,5 +57,5 @@ fi
 #xpmroot ~/background.xpm &
 #
 #$HOME/bin/xmonad
-
+xrandr -s 1024x768
 exec xmonad
