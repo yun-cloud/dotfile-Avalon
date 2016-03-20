@@ -1,11 +1,12 @@
 Pictures/
-.viminfo
-.bash_history
-.lesshst
-.Xauthority
+.cabal/
 .dbus/
 .ghc/ghci_history
 .xmonad/xmonad-x86_64-linux
 .xmonad/xmonad.errors
 .xmonad/xmonad.hi
 .xmonad/xmonad.o
+.viminfo
+.bash_history
+.lesshst
+.Xauthority
