@@ -3,3 +3,4 @@
 .lesshst
 .Xauthority
 .dbus/
+.ghc/ghci_history
