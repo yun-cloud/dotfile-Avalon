@@ -43,7 +43,7 @@ trayer --edge top --align right --SetDockType true --SetPartialStruct true \
   --expand true --width 10 --transparent true --tint 0x191970 --height 12 &
 
 # Set the background color and the cursor
-xsetroot -cursor_name left_ptr -solid midnightblue &
+xsetroot -cursor_name left_ptr &
 
 # Set the resolution 
 xrandr -s 1024x768
