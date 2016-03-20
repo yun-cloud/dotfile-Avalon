@@ -57,5 +57,7 @@ fi
 #xpmroot ~/background.xpm &
 #
 #$HOME/bin/xmonad
+
+xsetroot -cursor_name left_ptr &
 xrandr -s 1024x768
 exec xmonad
