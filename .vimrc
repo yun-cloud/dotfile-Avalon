@@ -1,6 +1,7 @@
 syntax on
 
 set nocompatible
+set nowrap
 set number
 "set cursorline
 set showmode
