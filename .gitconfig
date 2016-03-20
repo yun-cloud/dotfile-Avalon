@@ -10,3 +10,5 @@
 	br = branch
 	lo = log --oneline
 
+[core]
+	editor = vim

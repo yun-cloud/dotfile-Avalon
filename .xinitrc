@@ -48,6 +48,7 @@ xsetroot -cursor_name left_ptr -solid midnightblue &
 # Set the resolution 
 xrandr -s 1024x768
 
-xscreensaver -no-splash &
+xscreensaver -no-splash & 
+feh --bg-scale ~/Pictures/avalon.jpg &
 
 exec xmonad
