@@ -15,7 +15,7 @@ set softtabstop=4
 set shiftwidth=4
 set incsearch
 set hlsearch
-set textwidth=80
+"set textwidth=80
 set mouse=a
 set history=1000
 set cmdheight=1
