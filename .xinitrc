@@ -7,31 +7,16 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 # merge in defaults and keymaps
 
-if [ -f $sysresources ]; then
-
-
-
-
-
-
-
-    xrdb -merge $sysresources
-
+if [ -f $sysresources ]; then 
+    xrdb -merge $sysresources 
 fi
+
 if [ -f $sysmodmap ]; then
     xmodmap $sysmodmap
 fi
 
-if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
-    xrdb -merge "$userresources"
-
+if [ -f "$userresources" ]; then 
+    xrdb -merge "$userresources" 
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -53,11 +38,16 @@ fi
 #xterm -geometry 80x20+494-0 &
 #exec xterm -geometry 80x66+0+0 -name login
 
-#xrdb -merge .Xresources
-#xpmroot ~/background.xpm &
-#
-#$HOME/bin/xmonad
+# Set up an icon tray
+trayer --edge top --align right --SetDockType true --SetPartialStruct true \
+  --expand true --width 10 --transparent true --tint 0x191970 --height 12 &
 
-xsetroot -cursor_name left_ptr &
+# Set the background color and the cursor
+xsetroot -cursor_name left_ptr -solid midnightblue &
+
+# Set the resolution 
 xrandr -s 1024x768
+
+xscreensaver -no-splash &
+
 exec xmonad
