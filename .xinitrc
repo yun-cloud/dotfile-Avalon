@@ -36,7 +36,7 @@ fi
 #xclock -geometry 50x50-1+1 &
 #xterm -geometry 80x50+494+51 &
 #xterm -geometry 80x20+494-0 &
-#exec xterm -geometry 80x66+0+0 -name login
+#exec xterm -geometry 80x66+0+0 -name login 
 
 # Set up an icon tray
 trayer --edge top --align right --SetDockType true --SetPartialStruct true \
@@ -49,6 +49,7 @@ xsetroot -cursor_name left_ptr &
 xrandr -s 1024x768
 
 xscreensaver -no-splash & 
-feh --bg-scale ~/Pictures/avalon.jpg &
+
+feh --bg-scale $WALLPAPER
 
 exec xmonad
