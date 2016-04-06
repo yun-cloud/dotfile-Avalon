@@ -1,41 +1,25 @@
-xterm*faceName: 	Droid Sans Mono:size=18
-XTerm*reverseVideo: 	on
-XTerm*saveLines:        1000
-
-*.foreground: 		#1d1f21
-*.background: 		#c5c8c6
-*.cursorColor: 		#c5c8c6
-
-! black
-*.color0: 		rgb:28/2a/2e
-*.color8: 		rgb:37/3b/41
-
-! red
-*color1: 		rgb:a5/42/42
-*color9: 		rgb:cc/66/66
-
-! green
-*color2: 		rgb:8c/94/40
-*color10: 		rgb:b5/bd/68
-
-! yellow
-*color3: 		rgb:de/93/5f
-*color11: 		rgb:f0/c6/74
-
-! blue
-*color4: 		rgb:5f/81/9d
-*color12: 		rgb:81/a2/be
-
-! magenta
-*color5: 		rgb:85/67/8f
-*color13: 		rgb:b2/94/bb
-
-! cyan
-*color6: 		rgb:5e/8d/87
-*color14: 		rgb:8a/be/b7
-
-! white
-*color7: 		rgb:70/78/80
-*color15: 		rgb:c5/c8/c6
-
-
+xterm*faceName: 	    Input Mono Medium
+xterm*faceSize:         20
+xterm*termName:         xterm-256color
+xterm*saveLines:        1000
+xterm*utf8:             1
+! === google.dark ===   colorscheme from terminal.sexy
+*.foreground:   #C5C8C6
+*.background:   #1D1F21
+*.cursorColor:  #C5C8C6
+*.color0:       #1D1F21
+*.color8:       #969896
+*.color1:       #CC322B
+*.color9:       #CC342B
+*.color2:       #198844
+*.color10:      #198844
+*.color3:       #FBA922
+*.color11:      #FBA922
+*.color4:       #3971ED
+*.color12:      #3971ED
+*.color5:       #A36AC7
+*.color13:      #A36AC7
+*.color6:       #3971ED
+*.color14:      #3971ED
+*.color7:       #C5C8C6
+*.color15:      #FFFFFF 
