@@ -11,4 +11,4 @@
 	lo = log --oneline
 
 [core]
-	editor = vim
+	editor = $EDITOR
