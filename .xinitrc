@@ -50,6 +50,16 @@ xrandr -s 1024x768
 
 xscreensaver -no-splash & 
 
+# set the background
 feh --bg-scale $WALLPAPER
+
+# synchronizes the two copy/paste buffers mainly used by X applications
+autocutsel -fork &
+autocutsel -selection PRIMARY -fork &
+
+# lauch the virtualbox guest services
+VBoxClient --clipboard --draganddrop --seamless --display
+
+xterm &
 
 exec xmonad
