@@ -14,8 +14,8 @@ export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 PS1='[\u@\h \W]\$ '
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
+alias ls='ls --color=always'
+alias grep='grep --color=always'
 alias rm='rm -i'
 alias mv='mv -i'
 
@@ -40,7 +40,7 @@ alias gb='git branch'
 alias gc='git commit'
 alias gd='git diff'
 alias go='git checkout'
-alias gl='git log --oneline | sed -n 1,15p'
+alias gl='git log --oneline --color=always | sed -n 1,15p | tac'
 
 # source fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
