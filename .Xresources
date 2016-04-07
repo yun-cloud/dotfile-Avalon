@@ -1,5 +1,5 @@
 xterm*faceName: 	    Input Mono Medium
-xterm*faceSize:         20
+xterm*faceSize:         16
 xterm*termName:         xterm-256color
 xterm*saveLines:        1000
 xterm*utf8:             1
