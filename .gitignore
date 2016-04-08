@@ -33,3 +33,4 @@ other/
 
 .cabal
 .ghc/
+.bash-git-prompt/

@@ -64,3 +64,7 @@ man() {
     LESS_TERMCAP_us=$'\E[04;38;5;146m' \
     man "$@"
 }
+
+# bash-git-prompt
+#source ~/.bash-git-prompt/gitprompt.sh
+#GIT_PROMPT_ONLY_IN_REPO=1
