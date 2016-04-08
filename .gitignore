@@ -22,3 +22,12 @@ other/
 .python_history
 .xsel.log
 .Xauthority
+.config/base16-shell
+.darcs/
+.fzf/
+.gnupg/
+.ipython/
+.jupyter/migrated
+.ssh/
+.zshrc
+
