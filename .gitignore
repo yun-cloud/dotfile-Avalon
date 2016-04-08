@@ -31,3 +31,4 @@ other/
 .ssh/
 .zshrc
 
+.cabal
