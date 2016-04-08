@@ -1,6 +1,14 @@
 Pictures/
+Programs/
+.local/
 .cabal/
 .dbus/
+.cache/
+Applications/
+build-repos/
+other/
+	.gnupg/
+	.ssh/
 .ghc/ghci_history
 .xmonad/xmonad-x86_64-linux
 .xmonad/xmonad.errors
@@ -9,4 +17,8 @@ Pictures/
 .viminfo
 .bash_history
 .lesshst
+.fzf.bash
+.fzf.zsh
+.python_history
+.xsel.log
 .Xauthority
