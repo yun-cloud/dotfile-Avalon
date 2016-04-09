@@ -7,6 +7,7 @@ call plug#begin()
     Plug 'Shougo/neosnippet'
     Plug 'Shougo/neosnippet-snippets'
     Plug 'scrooloose/syntastic'
+    Plug 'tpope/vim-fugitive'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'justinmk/vim-syntax-extra'
@@ -49,6 +50,7 @@ let base16colorspace=256
 let g:airline_theme = 'dark'
 let g:airline_powerline_fonts=1
 let g:airline#extension#syntastic#enabled = 1
+let g:airline#extension#branch#enabled = 1
 " === vim-airline-theme ===
 let g:airline_theme="dark"
 " ===========================================
