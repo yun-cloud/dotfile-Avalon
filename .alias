@@ -9,6 +9,7 @@ alias ed='$EDITOR'
 
 # cmd the applications
 alias nvimcfg='ed ~/.config/nvim/init.vim'
+alias xmonadcfg='ed ~/.xmonad/xmonad.hs'
 alias updatefzf='cd ~/.fzf && git pull && ./install'
 
 # cd alias
