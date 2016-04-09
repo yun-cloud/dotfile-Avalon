@@ -6,12 +6,15 @@ import XMonad.Util.Run(spawnPipe)
 import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 
+myTerminal = "st tmux"
+
 main = do
     xmproc <- spawnPipe "xmobar"
     xmonad $ def
         { modMask    = mod4Mask     -- Rebined Mod key to the Windows key
         , layoutHook = avoidStruts $ layoutHook def
         , manageHook = manageHook def <+> manageDocks 
+        , terminal   = myTerminal
         , handleEventHook = mconcat
                             [ docksEventHook
                             , handleEventHook def

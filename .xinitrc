@@ -56,6 +56,4 @@ feh --bg-scale $WALLPAPER
 # lauch the virtualbox guest services
 VBoxClient --clipboard --draganddrop --seamless --display -d
 
-xterm &
-
 exec xmonad

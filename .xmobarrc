@@ -14,3 +14,5 @@ Config { font = "-*-Fixed-Bold-R-Normal-*-14-*-*-*-*-*-*-*"
        , alignSep = "}{"
        , template = "%StdinReader% }{ %cpu% | %memory% | %swap% <fc=#ee9a00>%date%</fc> | %EGPF%"
        }
+
+-- vim:ft=haskell
