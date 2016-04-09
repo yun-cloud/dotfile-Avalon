@@ -2,9 +2,10 @@ call plug#begin()
     Plug 'shougo/unite.vim'
     Plug 'shougo/vimproc.vim'
     Plug 'shougo/vimfiler.vim'
-    Plug 'romgrk/vimfiler-prompt'
     Plug 'shougo/vimshell.vim'
     Plug 'shougo/deoplete.nvim'
+    Plug 'Shougo/neosnippet'
+    Plug 'Shougo/neosnippet-snippets'
     Plug 'scrooloose/syntastic'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -28,6 +29,12 @@ let g:deoplete#enable_at_startup=1
 " === VimShell ===
 let g:vimshell_user_prompt='fnamemodify(getcwd(), ":~")'
 let g:vimshell_prompt="$ "
+" === NeoSnippet ===
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
+
+let g:NeoSnippet#snippets_directory = '~/.config/nvim/plugged/neosnippet-snippets/neosnippets'
 " === Syntastic ===
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -45,6 +52,8 @@ let g:airline#extension#syntastic#enabled = 1
 " === vim-airline-theme ===
 let g:airline_theme="dark"
 " ===========================================
+
+filetype on
 
 set wrap
 set number

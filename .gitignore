@@ -7,8 +7,8 @@ Programs/
 Applications/
 build-repos/
 other/
-	.gnupg/
-	.ssh/
+.gnupg/
+.ssh/
 .ghc/ghci_history
 .xmonad/xmonad-x86_64-linux
 .xmonad/xmonad.errors
@@ -29,8 +29,7 @@ other/
 .ipython/
 .jupyter/migrated
 .ssh/
-.zshrc
-
+.zshrc 
 .cabal
 .ghc/
 .bash-git-prompt/
