@@ -14,9 +14,9 @@ export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 PS1='[\u@\h \W]\$ '
 
-alias ls='ls --color=always'
-alias grep='grep --color=always'
-alias pacman='pacman --color always'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias pacman='pacman --color auto'
 alias rm='rm -i'
 alias mv='mv -i'
 
@@ -68,3 +68,6 @@ man() {
 # bash-git-prompt
 #source ~/.bash-git-prompt/gitprompt.sh
 #GIT_PROMPT_ONLY_IN_REPO=1
+
+# show "archey3" when open a terminal
+archey3
