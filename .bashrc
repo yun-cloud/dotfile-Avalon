@@ -39,8 +39,8 @@ man() {
 }
 
 # bash-git-prompt
-#source ~/.bash-git-prompt/gitprompt.sh
-#GIT_PROMPT_ONLY_IN_REPO=1
+source ~/.bash-git-prompt/gitprompt.sh
+GIT_PROMPT_ONLY_IN_REPO=1
 
 # show "archey3" when open a terminal
 archey3
